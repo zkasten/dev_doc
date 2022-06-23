@@ -57,5 +57,40 @@ Delete Branch
 
     git branch -d (branch name)
 
+ Add Github Remote Repository
+
+    git remote add __REMOTE__ _GITHUB_ADDR__
+
+Check Remote Repository
+
+    git remote
+
+Commit to Github
+
+    git push __REMOTE__ __BRANCH__
+
+Clone Github Project
+
+    git clone __REMOTE__
+
+Check remote commit status
+
+    git fetch
+
+Update remote 
+
+    git pull __REMOTE__ __BRANCH__
+    
+Check remote branch
+
+    git branch -a
+
+Create & Get remote Branch
+
+    git checkout -b __BRANCH_NAME__ __REMOTE__/__BRANCH_NAME__
+
+Delete remote Branch
+
+    git push -d __REMOTE_NAME  __ __BRANCH_NAME__
 
 
