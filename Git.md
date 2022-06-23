@@ -1,59 +1,59 @@
 
-- Create Git repository
+Create Git repository
 
     git init
 
-- config
+config
 
     git config --global user.name "(name)"
     git config --global user.email "(e-mail)"
 
-- check status
+check status
 
     git status
 
-- Add changes
+Add changes
 
     git add -A
 
-- Commit
+Commit
 
     git commit -m "(comment)"
 
-- Check log
+Check log
 
     git log
 
-- Reset(Hard)
+Reset(Hard)
 
     git reset (6 digit of commit to reset) --hard
 
-- Revert
+Revert
 
     git revert (6 digit of commit)
 
-- Branch
+Branch
 
     git branch (new branch name)
 
-- Show Branches
+Show Branches
 
     git branch
 
-- Move to Branch
+Move to Branch
 
     git checkout (branch name)
     git checkout -b (branch name)   // create & move
 
-- Merge Branch
+Merge Branch
 
     git merge (branch name)
 
-- rebase
+rebase
 
     git rebase (branch name)
 
-- Delete Branch
+Delete Branch
 
     git branch -d (branch name)
 
