@@ -42,3 +42,6 @@ git rebase (branch name)
 
 - Delete Branch
 git branch -d (branch name)
+
+
+
