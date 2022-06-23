@@ -1,44 +1,44 @@
 
 - Create Git repository
-    # git init
+    git init
 
 - config
-    # git config -global user.name "(name)"
-    # git config -global user.email "(e-mail)"
+    git config --global user.name "(name)"
+    git config --global user.email "(e-mail)"
 
 - check status
-    # git status
+    git status
 
 - Add changes
-    # git add -A
+    git add -A
 
 - Commit
-    # git commit -m "(comment)"
+    git commit -m "(comment)"
 
 - Check log
-    # git log
+    git log
 
 - Reset(Hard)
-    # git reset (6 digit of commit to reset) --hard
+    git reset (6 digit of commit to reset) --hard
 
 - Revert
-    # git revert (6 digit of commit)
+    git revert (6 digit of commit)
 
 - Branch
-    # git branch (new branch name)
+    git branch (new branch name)
 
 - Show Branches
-# git branch
+    git branch
 
 - Move to Branch
-# git checkout (branch name)
-# git checkout -b (branch name)   // create & move
+    git checkout (branch name)
+    git checkout -b (branch name)   // create & move
 
 - Merge Branch
-# git merge (branch name)
+    git merge (branch name)
 
 - rebase
-# git rebase (branch name)
+    git rebase (branch name)
 
 - Delete Branch
-# git branch -d (branch name)
+    git branch -d (branch name)
